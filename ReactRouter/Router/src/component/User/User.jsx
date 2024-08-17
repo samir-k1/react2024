@@ -1,13 +1,13 @@
 import React from 'react'
 import { useParams  } from "react-router-dom";
 function User() {
-    const {UserId}=useParams()
+    const {userid}=useParams()
 
 
 
   return (
     <div>
-      <div>User:{UserId}</div>
+      <div className='bg-gray-300 text-center p-3'>User:{userid}</div>
     </div>
   )
 }
