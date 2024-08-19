@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaBehance } from 'react-icons/fa';
 import MyName from '../../assets/Myimage.jpg'
+// import DownloadCvButton from '../DownloadCv/DownloadCv';
 
 function HeroSection() {
   return (
@@ -42,6 +43,9 @@ function HeroSection() {
             >
               <FaBehance size={50} />
             </a>
+            {/* <button onClick={DownloadCvButton} className="your-button-styles">
+  Download CV
+</button> */}
           </div>
         </div>
 
